@@ -1,0 +1,14 @@
+pet_inventory = {
+    "dog_food": 10,
+    "cat_food": 8,
+    "fish_tanks": 3,
+    "bird_cages": 5
+}
+
+print(pet_inventory["dog_food"])
+print(pet_inventory["bird_cages"])
+
+if "hamster_wheel" in pet_inventory:
+    print(pet_inventory["hamster_wheel"])
+else:
+    print("sorry we don't carry that item")
